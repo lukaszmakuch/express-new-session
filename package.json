@@ -1,0 +1,23 @@
+{
+  "name": "express-new-session",
+  "license": "MIT",
+  "description": "A middleware that generates a new session.",
+  "keywords": [
+    "session",
+    "security",
+    "regenerate"
+  ],
+  "version": "1.0.0",
+  "author": "Łukasz Makuch <kontakt@lukaszmakuch.pl> (http://lukaszmakuch.pl)",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "engines" : {
+    "node" : ">=0.10.48"
+  },
+  "main": "./src.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test.js"
+  }
+}
